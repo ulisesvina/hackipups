@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Press Start";
+  src: url("./fonts/PressStart2P.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  font-family: "Press Start", system-ui, -apple-system;
+  font-size: 24px;
+  color: #fff;
+}
+
+body {
+  background: #181818;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+gradient {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(253,187,45,1) 40%, rgba(255,255,255,1) 50%, #5187db 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
