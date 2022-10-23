@@ -1,7 +1,8 @@
+import Stats from "./Stats";
 const Home = () => {
     return (
         <div className="container">
-            Test
+            <Stats />
         </div>
     )
 }

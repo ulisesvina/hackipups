@@ -1,18 +1,17 @@
-import { useEffect } from React;
-var stats = {hunger: 0, boredom: 0, energy: 100, thirst: 0};
+import { useEffect } from "react";
+var stats = {hunger: 100, boredom: 100, energy: 100, thirst: 100};
 function getStats() {
-    useEffect(() => {
-        if(localStorage.getItem('stats') == null){
-            localStorage.setItem('stats', JSON.stringify(stats));
-        } else {
-            stats = JSON.parse(localStorage.getItem('stats'));
-            alert(stats.boredom);
-        }
-      }, []);
+
 }
 getStats();
 const Stats = () => {
-
+  useEffect(() => {
+    if(localStorage.getItem('stats') == null){
+        localStorage.setItem('stats', JSON.stringify(stats));
+    } else {
+        stats = JSON.parse(localStorage.getItem('stats'));
+    }
+  }, []);
     return(
         <div>
             put stat bars here
