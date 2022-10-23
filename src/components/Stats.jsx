@@ -14,10 +14,12 @@ const Stats = () => {
   }, []);
     return(
         <div>
-            put stat bars here
             <b>hunger: {stats.hunger}</b>
+            <br/>
             <b>boredom: {stats.boredom}</b>
+            <br/>
             <b>energy: {stats.energy}</b>
+            <br/>
             <b>thirst: {stats.thirst}</b>
         </div>
     );
