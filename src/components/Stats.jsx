@@ -1,9 +1,5 @@
 import { useEffect } from "react";
 var stats = {hunger: 100, boredom: 100, energy: 100, thirst: 100};
-function getStats() {
-
-}
-getStats();
 const Stats = () => {
   useEffect(() => {
     if(localStorage.getItem('stats') == null){

@@ -1,4 +1,5 @@
 import { atom, useRecoilValue } from 'recoil'
+import Buttons from './Buttons';
 
 const dogState = atom({
   key: 'dogState', // unique ID (with respect to other atoms/selectors)
@@ -9,12 +10,11 @@ const dogState = atom({
 });
 const Dog = () => {
   const dog = useRecoilValue(dogState)
-  console.log(dog)
   return(
-    <div>
+    <div className='container flex-column justify-center'>
       <h3>This is {dog.name}!</h3>
       <img src={dog.img} />
-
+      <Buttons />
     </div>
   )
 }
