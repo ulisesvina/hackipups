@@ -12,6 +12,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recoil": "^0.7.6",
+    "serve": "^14.0.1",
     "wouter": "^2.8.0-alpha.2"
   },
   "devDependencies": {

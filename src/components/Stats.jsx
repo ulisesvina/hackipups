@@ -10,7 +10,6 @@ const Stats = () => {
         localStorage.setItem('stats', JSON.stringify(stats));
     } else {
         stats = JSON.parse(localStorage.getItem('stats'));
-        alert(stats.boredom);
     }
   }, []);
     return(
