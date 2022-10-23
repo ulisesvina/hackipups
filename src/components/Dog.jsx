@@ -13,7 +13,7 @@ const Dog = () => {
   return(
     <div className='container flex-column justify-center' >
       <h3>This is {dog.name}!</h3>
-      <div style= {{ width: '480px', height: '480px', backgroundImage: `url("https://cdn.discordapp.com/attachments/1033175931688333354/1033589942003187743/unknown.png")`}}><img src={dog.img} style={{ marginLeft:'150px', paddingTop:'70px'}}/></div>
+      <div style= {{ width: '480px', height: '480px', backgroundImage: `url("https://cdn.discordapp.com/attachments/1033175931688333354/1033589942003187743/unknown.png")`}}><img src={dog.img} style={{ padding: '120px'}}/></div>
       <Buttons />
     </div>
   )
