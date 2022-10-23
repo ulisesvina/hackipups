@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "i": "^0.3.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recoil": "^0.7.6",
