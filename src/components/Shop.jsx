@@ -40,8 +40,8 @@ const Shop = () => {
                 {item.name}
                 </th>
                 { item.owned ? (
-                  <button onClick={() => buy(item.img)}>equip</button>
-                ) : <button onClick={() => buy(item.price, coins)}>buy</button>}
+                  <button className="border py-1 px-2 rounded hover:bg-white hover:text-black m-2" onClick={() => buy(item.img)}>equip</button>
+                ) : <button className="border py-1 px-2 rounded hover:bg-white hover:text-black m-2" onClick={() => buy(item.price, coins)}>buy</button>}
                 <br/>
               <th style={{color: "gold"}}>{item.price}</th>
               <th>
