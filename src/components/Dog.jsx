@@ -1,7 +1,7 @@
 import { atom, useRecoilValue } from 'recoil'
 import Buttons from './Buttons';
 
-const dogState = atom({
+export const dogState = atom({
   key: 'dogState', // unique ID (with respect to other atoms/selectors)
   default: {
     name: 'Rover',
