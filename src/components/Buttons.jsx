@@ -27,9 +27,9 @@ const Buttons = () => {
 
   return(
   <div>
-    <button className="border py-1 px-2 rounded hover:bg-white hover:text-black m-2" onClick={feed}>Food</button>
-    <button className="border py-1 px-2 rounded hover:bg-white hover:text-black m-2" onClick={water}>Water</button>
-    <button className="border py-1 px-2 rounded hover:bg-white hover:text-black m-2" onClick={play}>Play</button>
+    <button className="border py-1 px-2 rounded hover:bg-white hover:text-black m-2" onClick={feed}>Food (10 coins)</button>
+    <button className="border py-1 px-2 rounded hover:bg-white hover:text-black m-2" onClick={water}>Water (10 coins)</button>
+    <button className="border py-1 px-2 rounded hover:bg-white hover:text-black m-2" onClick={play}>Play (10 coins)</button>
   </div>
   )
 }
