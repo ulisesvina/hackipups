@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { atom, useRecoilValue } from 'recoil'
 
-const statsState = atom({
+export const statsState = atom({
   key: 'statsState', // unique ID (with respect to other atoms/selectors)
   default: {hunger: 100, boredom: 100, energy: 100, thirst: 100}, // default value (aka initial value)
 });
