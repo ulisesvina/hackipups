@@ -8,15 +8,19 @@ export const coinState = atom({
 
 const Header = () => {
   const coins = useRecoilValue(coinState),
-  dog = useRecoilValue(dogState);
+    dog = useRecoilValue(dogState);
 
   return (
-    <div className="flex items-center justify-between flex-wrap mt-2 mb-10 text-center">
-      <h1>
-        <gradient>hackipups!</gradient>
-      </h1>
-      {dog ? (<h3>Coins: {coins}</h3>) : ""}
-    </div>
+    <header className="backdrop-blur-3xl top-0 sticky p-8 bg-black text-center">
+      <div className="flex items-center justify-between flex-col">
+        <div className="flex-shrink-0 lg:mr-6">
+          <a href="/">
+            <span className="text-2xl"><gradient>hackipups!</gradient></span>
+            <p className="text-md mt-2">{dog ? `$${coins}` : ""}</p>
+          </a>
+        </div>
+      </div>
+    </header>
   );
 };
 

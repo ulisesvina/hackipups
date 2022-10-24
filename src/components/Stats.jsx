@@ -29,13 +29,13 @@ const Stats = () => {
   }, [stats]);
 
   return (
-    <div className="m-5 border p-3 w-min inline-block">
-      <p className="mb-2 text-md text-amber-400">Stats</p>
+    <div className="mt-2 border p-1 w-full md:w-max h-min inline-block md:m-2">
+      <p className="mb-2 text-sm text-amber-400">Stats</p>
       <table>
         <tbody>
           <tr>
             <td className="text-right">
-              <span className="text-sm">Hunger</span>
+              <span className="text-xs">Hunger</span>
             </td>
             <td className="text-left">
               <progress
@@ -47,7 +47,7 @@ const Stats = () => {
           </tr>
           <tr>
             <td className="text-right">
-              <span className="text-sm">Boredom</span>
+              <span className="text-xs">Boredom</span>
             </td>
             <td className="text-left">
               <progress
@@ -59,7 +59,7 @@ const Stats = () => {
           </tr>
           <tr>
             <td className="text-right">
-              <span className="text-sm">Happiness</span>
+              <span className="text-xs">Happiness</span>
             </td>
             <td className="text-left">
               <progress
@@ -71,7 +71,7 @@ const Stats = () => {
           </tr>
           <tr>
             <td className="text-right">
-              <span className="text-sm">Thirst</span>
+              <span className="text-xs">Thirst</span>
             </td>
             <td className="text-left">
               <progress

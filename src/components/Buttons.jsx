@@ -33,19 +33,19 @@ const Buttons = () => {
   return (
     <div className="flex justify-center">
       <button
-        className="border py-1 px-2 hover:bg-white hover:text-black m-2"
+        className="border py-1 px-2 hover:bg-white hover:text-black m-1"
         onClick={feed}
       >
         Food ($20)
       </button>
       <button
-        className="border py-1 px-2 hover:bg-white hover:text-black m-2"
+        className="border py-1 px-2 hover:bg-white hover:text-black m-1"
         onClick={water}
       >
         Water ($15)
       </button>
       <button
-        className="border py-1 px-2 hover:bg-white hover:text-black m-2"
+        className="border py-1 px-2 hover:bg-white hover:text-black m-1"
         onClick={play}
       >
         Play ($50)

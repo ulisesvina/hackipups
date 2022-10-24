@@ -1,0 +1,6 @@
+{
+  "appId": "com.ada.hackipups",
+  "appName": "hackipups",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

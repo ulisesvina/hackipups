@@ -10,22 +10,18 @@ export const dogState = atom({
 const Dog = () => {
   const dog = useRecoilValue(dogState);
   return (
-    <div className="flex-column justify-center">
-      <p className="text-xl mb-1">This is {dog.name}</p>
-      <table className="w-full flex justify-center mb-2">
-        <tbody>
-          <td>
-            <div className="bg-div">
-              <img src={dog.img} className="dog" />
-            </div>
-          </td>
-          <td>
-            <Stats />
-          </td>
-        </tbody>
-      </table>
+    <>
+      <p className="mb-2 text-2xl">{dog.name}</p>
+      <div className="flex flex-col md:flex-row content-center justify-center ">
+        <div className="mb-2">
+          <div className="bg-div inline-block">
+            <img src={dog.img} className="dog" />
+          </div>
+          <Stats />
+        </div>
+      </div>
       <Buttons />
-    </div>
+    </>
   );
 };
 export default Dog;
