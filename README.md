@@ -17,6 +17,8 @@
     <a href="https://hackipups.vercel.app/">Try it out!</a>
     ·
     <a href="https://github.com/ulisesvina/hackipups/issues">Report Bug(s)</a>
+    ·
+    <a href="https://github.com/ulisesvina/hackipups-api">API</a>
   </p>
 
 </div>
@@ -54,6 +56,8 @@
 ## About
 
 Hackipups is a mobile application based on Capacitor and React, it allows you to pet a virtual animal with your closest friend, partner or favorite family member. By this, you can have another great activity to do together, and specially, care each other's health.
+
+You can also check out the API's codebase at [https://github.com/ulisesvina/hackipups-api](https://github.com/ulisesvina/hackipups-api)
 
 ### Built With
 
