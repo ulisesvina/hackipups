@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "money" INT4 NOT NULL DEFAULT 50;

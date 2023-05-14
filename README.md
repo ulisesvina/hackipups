@@ -17,8 +17,6 @@
     <a href="https://hackipups.vercel.app/">Try it out!</a>
     ·
     <a href="https://github.com/ulisesvina/hackipups/issues">Report Bug(s)</a>
-    ·
-    <a href="https://github.com/ulisesvina/hackipups-api">API</a>
   </p>
 
 </div>
@@ -55,16 +53,17 @@
 
 ## About
 
-Hackipups is a mobile application based on Capacitor and React, it allows you to pet a virtual animal with your closest friend, partner or favorite family member. By this, you can have another great activity to do together, and specially, care each other's health.
+Hackipups is a web application built on Next.js, it allows you to pet a virtual animal with your closest friend, partner or favorite family member. By this, you can have another great activity to do together, and specially, care each other's health.
 
 You can also check out the API's codebase at [https://github.com/ulisesvina/hackipups-api](https://github.com/ulisesvina/hackipups-api)
 
 ### Built With
 
 * Javascript
+* Next.js
+* Capacitor (for the mobile client)
 * React
-* Vite
-* Capacitor
+* Vercel
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -108,10 +107,7 @@ Sheldon, the mascot of Hackipups was named by the lead maintainer's girlfriend a
 ## Roadmap
 
 - [x] Functioning client
-- [x] Working Android app
-- [x] (WIP) API
-- [ ] Migrate to React Native
-- [ ] Working iOS app
+- [x] API
 - [ ] Real-time functionality using websockets
 
 See the [open issues](https://github.com/ulisesvina/hackipups/issues) for a full list of known issues.
